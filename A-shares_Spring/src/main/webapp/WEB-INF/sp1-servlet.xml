@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC 
+ "-//SPRING/DTD BEAN/EN" 
+ "http://www.springframework.org/dtd/spring-beans.dtd"> 
+ 
+ <beans>
+ 	<bean name="/login" class="Controller.loginController"/>
+ 	<bean name="/stock_search" class="Controller.stock_searchController"/>
+ 	<bean name="/stock_buyOrSell" class="Controller.stock_buyOrSellController"/>
+ 	<bean name="/buyOrder_submit" class="Controller.buyOrder_submitController"/>
+ 	<bean name="/sellOrder_submit" class="Controller.sellOrder_submitController"/>
+ 	<bean name="/return_home" class="Controller.return_homeController"/>
+ </beans>
